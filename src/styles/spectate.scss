@@ -143,10 +143,24 @@ b {
 }
 
 @media (max-width: 500px) {
-  .cover-hed header {
-    margin-top: 50%;
-  } // THIS IS A CHANGE MOLLY MADE 
-}
+
+
+  header {
+    transform: translateY(-105%) !important; // TODO: do better;
+    align-items: center;
+ 
+ 
+    #headline {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+  }
+  }
+
+  #headline {
+    max-width: unset !important;
+  }
+ 
 
 .cover-caption {
   margin: 7px auto 60px;
